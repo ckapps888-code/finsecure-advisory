@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FinSecure Advisory | Services</title>
+    <meta
+      name="description"
+      content="Explore FinSecure Advisory's services including mortgage and SME loans, life and general insurance, and estate planning."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <div class="container">
+          <nav class="navbar">
+            <div class="nav-left">
+              <a href="index.html" class="nav-logo">
+                <img src="assets/logo.png" alt="FinSecure Advisory logo" />
+              </a>
+              <div class="nav-brand">
+                <span class="nav-brand-name">FinSecure Advisory</span>
+                <span class="nav-brand-tagline">Financial Solutions, Simplified</span>
+              </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="services.html" class="active">Services</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="container">
+            <div class="section-header">
+              <div class="section-kicker">Services</div>
+              <h1 class="section-title">What we can help you with</h1>
+              <p class="section-subtitle">
+                We provide end-to-end advisory across financing, protection, and estate planning. Every
+                recommendation is aligned to your specific numbers and objectives.
+              </p>
+            </div>
+
+            <div class="services-grid">
+              <!-- Mortgage & SME Loan -->
+              <article class="service-card">
+                <div class="service-label">Financing</div>
+                <h2 class="service-title">Mortgage &amp; SME Loan Advisory</h2>
+                <p class="service-summary">
+                  We help you compare, structure, and apply for suitable loan packages across multiple banks
+                  so you get a facility that supports—not strains—your cash flow.
+                </p>
+                <ul class="service-list">
+                  <li>Home purchase financing for own stay and investment.</li>
+                  <li>Refinancing and debt consolidation strategies.</li>
+                  <li>SME term loans, overdrafts, and working capital facilities.</li>
+                  <li>Business banking relationship and documentation guidance.</li>
+                </ul>
+                <p class="service-note">
+                  We walk through interest structures, tenure, and total cost with you so you understand
+                  exactly what you are committing to.
+                </p>
+              </article>
+
+              <!-- Life Insurance -->
+              <article class="service-card">
+                <div class="service-label">Protection</div>
+                <h2 class="service-title">Life Insurance Planning</h2>
+                <p class="service-summary">
+                  Protect your most important asset—your ability to generate income. We design coverage that
+                  balances protection, affordability, and flexibility.
+                </p>
+                <ul class="service-list">
+                  <li>Personal and family life insurance programmes.</li>
+                  <li>Income protection and critical illness coverage.</li>
+                  <li>Key person insurance for business owners.</li>
+                  <li>Policy review to optimise existing coverage.</li>
+                </ul>
+                <p class="service-note">
+                  We focus on the purpose of each policy in your overall plan, not just the premium amount.
+                </p>
+              </article>
+
+              <!-- General Insurance -->
+              <article class="service-card">
+                <div class="service-label">Protection</div>
+                <h2 class="service-title">General Insurance Solutions</h2>
+                <p class="service-summary">
+                  Safeguard your assets, operations, and liabilities with appropriate general insurance
+                  coverage tailored to your profile and industry.
+                </p>
+                <ul class="service-list">
+                  <li>Property, fire, and home insurance coverage.</li>
+                  <li>Motor and fleet insurance for individuals and SMEs.</li>
+                  <li>Business interruption and liability insurance.</li>
+                  <li>Employee benefits and group coverage arrangements.</li>
+                </ul>
+                <p class="service-note">
+                  We help you understand exclusions, limits, and claim processes before you need to rely on
+                  them.
+                </p>
+              </article>
+
+              <!-- Estate planning -->
+              <article class="service-card">
+                <div class="service-label">Legacy</div>
+                <h2 class="service-title">Estate &amp; Legacy Planning</h2>
+                <p class="service-summary">
+                  Ensure your wealth is distributed smoothly and according to your wishes with a structured
+                  estate plan.
+                </p>
+                <ul class="service-list">
+                  <li>Review of existing nominations and beneficiary designations.</li>
+                  <li>Alignment of insurance, investments, and property structures.</li>
+                  <li>Planning for dependants, business partners, and special needs.</li>
+                  <li>Coordination with legal and professional partners where required.</li>
+                </ul>
+                <p class="service-note">
+                  A well-thought-out estate plan reduces conflicts, delays, and uncertainty for your loved
+                  ones.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>© <span id="year"></span> FinSecure Advisory. All rights reserved.</div>
+          <div class="footer-links">
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

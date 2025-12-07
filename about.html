@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FinSecure Advisory | About Us</title>
+    <meta
+      name="description"
+      content="Learn more about FinSecure Advisory, our advisory philosophy, and the team behind our financial solutions."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <div class="container">
+          <nav class="navbar">
+            <div class="nav-left">
+              <a href="index.html" class="nav-logo">
+                <img src="assets/logo.png" alt="FinSecure Advisory logo" />
+              </a>
+              <div class="nav-brand">
+                <span class="nav-brand-name">FinSecure Advisory</span>
+                <span class="nav-brand-tagline">Financial Solutions, Simplified</span>
+              </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html" class="active">About Us</a>
+              <a href="services.html">Services</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="container">
+            <div class="about-grid">
+              <div>
+                <div class="section-header">
+                  <div class="section-kicker">About us</div>
+                  <h1 class="section-title">Advisory built on clarity &amp; long-term trust</h1>
+                  <p class="section-subtitle">
+                    FinSecure Advisory was founded on a simple belief: financial products should serve your
+                    life strategy, not the other way around.
+                  </p>
+                </div>
+
+                <p>
+                  We work with individuals, families, and business owners to structure financing, protection,
+                  and estate solutions that are clear, sustainable, and aligned with their goals. Instead of
+                  pushing products, we prioritise understanding your cash flow, commitments, and risk appetite
+                  before proposing any solution.
+                </p>
+
+                <p>
+                  Our role is to simplify complex options across banks, insurers, and structures, so you can
+                  make confident decisions with full visibility on trade-offs and long-term impact.
+                </p>
+
+                <h2>How we work</h2>
+                <ul>
+                  <li>We start with a detailed discovery of your current position and objectives.</li>
+                  <li>We map out suitable options across our banking and insurance partners.</li>
+                  <li>We highlight pros, cons, total cost, and risk for each option.</li>
+                  <li>
+                    We support implementation, documentation, and periodic reviews as life circumstances
+                    change.
+                  </li>
+                </ul>
+
+                <p>
+                  Whether you are buying your first home, restructuring business loans, or planning your
+                  legacy, we walk the journey with you – as a long-term partner, not a one-time transaction.
+                </p>
+              </div>
+
+              <aside>
+                <div class="team-photo-card">
+                  <!-- Team photo -->
+                  <img src="assets/Team Photo-1.jpg" alt="FinSecure Advisory team" />
+                  <div class="team-photo-caption">
+                    <span></span>
+                    <div>
+                      <strong>FinSecure Advisory Team</strong><br />
+                      Here to support your next decision.
+                    </div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>© <span id="year"></span> FinSecure Advisory. All rights reserved.</div>
+          <div class="footer-links">
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
