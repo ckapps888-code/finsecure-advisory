@@ -1,131 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>FinSecure Advisory – Mortgage, SME Loan, Insurance, Will & Trust</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="FinSecure Advisory provides mortgage loans, SME business financing, insurance planning and will & trust services. Transparent, client-first guidance to secure your financial future." />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
-
-  <style>
-    /* --- existing CSS unchanged except new class added below --- */
-
-    .team-photo {
-      width: 100%;
-      border-radius: 16px;
-      margin: 25px 0;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.06);
-    }
-  </style>
-</head>
-
-<body>
-<header>
-  <div class="container">
-    <nav class="nav">
-      <div class="brand">
-        <img src="logo.png" alt="FinSecure Advisory Logo" class="logo-img" />
-        <div class="brand-text">
-          <div class="brand-name">FinSecure Advisory</div>
-          <div class="brand-tagline">Secure Today. Build Tomorrow.</div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>FinSecure Advisory | Home</title>
+    <meta
+      name="description"
+      content="FinSecure Advisory provides tailored mortgage & SME loan solutions, insurance planning, and estate planning services."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="container">
+          <nav class="navbar">
+            <div class="nav-left">
+              <a href="index.html" class="nav-logo">
+                <img src="assets/logo.png" alt="FinSecure Advisory logo" />
+              </a>
+              <div class="nav-brand">
+                <span class="nav-brand-name">FinSecure Advisory</span>
+                <span class="nav-brand-tagline">Financial Solutions, Simplified</span>
+              </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-links">
+              <a href="index.html" class="active">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="services.html">Services</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </nav>
         </div>
-      </div>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </div>
-</header>
+      </header>
 
-<main id="home">
+      <!-- Main -->
+      <main>
+        <!-- Hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-grid">
+              <div>
+                <div class="hero-badge">
+                  <span class="hero-badge-dot"></span>
+                  Trusted financial advisory partner
+                </div>
+                <h1 class="hero-title">
+                  Structuring <span>smart financing</span><br />for your life & business.
+                </h1>
+                <p class="hero-subtitle">
+                  FinSecure Advisory helps you navigate mortgages, SME financing, insurance, and estate
+                  planning with clarity—so you can focus on building what matters.
+                </p>
 
-  <!-- HERO -->
-  <!-- (unchanged) -->
+                <div class="hero-pills">
+                  <span class="hero-pill">Mortgage &amp; SME Loan Advisory</span>
+                  <span class="hero-pill">Life &amp; General Insurance</span>
+                  <span class="hero-pill">Estate Planning Strategies</span>
+                </div>
 
-  <!-- WHY US -->
-  <!-- (unchanged) -->
+                <div class="hero-actions">
+                  <a href="contact.html" class="btn btn-primary">Book a consultation</a>
+                  <a href="services.html" class="btn btn-ghost">View our services</a>
+                </div>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="container">
-      <div class="section-header">
-        <h2>About FinSecure Advisory</h2>
-        <p>We exist to make financial decisions clearer, simpler and more secure for individuals and business owners.</p>
-      </div>
+                <p class="hero-note">
+                  No-obligation consultation &mdash; we tailor solutions based on your goals, risk profile,
+                  and cash flow.
+                </p>
 
-      <!-- ⭐ ADDED TEAM PHOTO HERE ⭐ -->
-      <img src="Group Photo-1.jpg" alt="FinSecure Advisory Team Photo" class="team-photo" />
+                <div class="hero-metrics">
+                  <div class="metric">
+                    <div class="metric-title">Clients guided</div>
+                    <div class="metric-value">300+</div>
+                  </div>
+                  <div class="metric">
+                    <div class="metric-title">Financing panel</div>
+                    <div class="metric-value">Multiple banks</div>
+                  </div>
+                  <div class="metric">
+                    <div class="metric-title">Coverage</div>
+                    <div class="metric-value">Personal &amp; SME</div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="about-content">
-        <div class="about-text">
-          <p>
-            FinSecure Advisory is a financial services firm dedicated to providing honest, personalised and strategic
-            solutions in mortgage loans, SME financing, insurance planning and estate planning.
-          </p>
-          <p>
-            We believe financial decisions should be clear, stress-free and tailored to each client’s unique journey.
-            Our role is to simplify complex financial matters and stand by you as a partner, not just a product seller.
-          </p>
+              <!-- Hero side card: snapshot of services -->
+              <aside class="hero-card" aria-label="FinSecure services overview">
+                <div class="hero-card-tag">Snapshot</div>
+                <div class="hero-card-title">Holistic financial services</div>
+                <div class="hero-card-pill">
+                  <span class="hero-card-pill-dot"></span>
+                  Advisory first, product second
+                </div>
 
-          <p><strong>Our Mission</strong></p>
-          <p>To empower individuals and businesses with transparent advice, practical solutions and lifelong financial guidance.</p>
+                <ul class="hero-card-list">
+                  <li>
+                    <span>✓</span>
+                    <div>Compare mortgage & SME loan packages across multiple banks.</div>
+                  </li>
+                  <li>
+                    <span>✓</span>
+                    <div>
+                      Protect your income, assets, and business with life & general insurance planning.
+                    </div>
+                  </li>
+                  <li>
+                    <span>✓</span>
+                    <div>Preserve your legacy with structured estate planning strategies.</div>
+                  </li>
+                </ul>
 
-          <p><strong>Our Core Values</strong></p>
-          <ul class="about-list">
-            <li><strong>Integrity</strong> – We act with honesty and transparency in everything we do.</li>
-            <li><strong>Client-First</strong> – Your goals shape every recommendation we make.</li>
-            <li><strong>Professional Excellence</strong> – We stay updated so our advice is always relevant and accurate.</li>
-            <li><strong>Long-Term Partnership</strong> – We grow with our clients through every life milestone.</li>
-          </ul>
+                <div class="hero-stats-row">
+                  <div class="hero-stat">
+                    <strong>RM</strong>
+                    in financing arranged<br />for clients over the years.
+                  </div>
+                  <div class="hero-stat">
+                    <strong>Ongoing</strong>
+                    personalised review<br />as your life and business evolve.
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <!-- Quick services preview -->
+        <section class="section">
+          <div class="container">
+            <div class="section-header">
+              <div class="section-kicker">How we help</div>
+              <h2 class="section-title">Tailored solutions at every stage</h2>
+              <p class="section-subtitle">
+                From purchasing your first property to expanding your business and planning your legacy,
+                we provide a clear strategy behind every recommendation.
+              </p>
+            </div>
+
+            <div class="cards-grid">
+              <article class="card">
+                <h3 class="card-title">Mortgage &amp; Home Financing</h3>
+                <p class="card-body">
+                  Compare across banks, understand total costs, and align your mortgage structure with your
+                  cash flow and long-term plans.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">New purchase</span>
+                  <span class="tag">Refinancing</span>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">SME Loans &amp; Business Banking</h3>
+                <p class="card-body">
+                  Structure working capital, term loans, and trade facilities that support sustainable
+                  growth for your business.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">SME financing</span>
+                  <span class="tag">Expansion</span>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">Life &amp; Income Protection</h3>
+                <p class="card-body">
+                  Ensure your family and business are protected with well-structured life, medical, and key
+                  person insurance.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">Life cover</span>
+                  <span class="tag">Medical</span>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">Estate &amp; Legacy Planning</h3>
+                <p class="card-body">
+                  Organise your assets, nominations, and succession so your wealth is transferred smoothly
+                  according to your wishes.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">Estate planning</span>
+                  <span class="tag">Wealth transfer</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>© <span id="year"></span> FinSecure Advisory. All rights reserved.</div>
+          <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
-
-        <div class="about-box">
-          <h3>Who We Work With</h3>
-          <p>We serve a wide range of clients, including:</p>
-          <ul class="service-list">
-            <li>First-time home buyers and upgraders</li>
-            <li>Property investors</li>
-            <li>SME owners and entrepreneurs</li>
-            <li>Families seeking protection and estate planning</li>
-          </ul>
-          <p style="margin-top:10px;">
-            Our aim is simple: help you make informed financial decisions with confidence and peace of mind.
-          </p>
-        </div>
-      </div>
+      </footer>
     </div>
-  </section>
 
-  <!-- (Rest of the HTML remains unchanged below) -->
-  
-  <!-- SERVICES OVERVIEW -->
-  <!-- SERVICE DETAILS -->
-  <!-- TESTIMONIALS -->
-  <!-- FAQ -->
-  <!-- CONTACT -->
-  <!-- FOOTER -->
+    <script>
+      // Auto year
+      document.getElementById("year").textContent = new Date().getFullYear();
 
-</main>
+      // Mobile nav toggle
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelector(".nav-links");
 
-<footer>
-  <div class="container footer-inner">
-    <div>© <span id="year"></span> FinSecure Advisory. Secure Today. Build Tomorrow.</div>
-    <div class="footer-links">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</footer>
-
-</body>
+      navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
 </html>
